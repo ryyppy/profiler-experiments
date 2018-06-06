@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(executable
+ ((name profiler)
+ (public_name profiler)
+ (modes (native))
+ (libraries (yojson flow_parser))))
